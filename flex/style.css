@@ -1,0 +1,26 @@
+.flex {
+    background-color: aqua;
+    height: 30vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flex > div {
+    background-color: #fff;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.flex > :first-child {
+    margin-right: auto;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .flex > :first-child {
+    margin-right: auto;
+  }
